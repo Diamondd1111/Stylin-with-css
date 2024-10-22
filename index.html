@@ -5,7 +5,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Stylin' with CSS by Diamond Butler</title>
   <style>
-
+    @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
     html{
     background-color:#ccc;
     }
@@ -20,8 +20,15 @@
    padding:1%;
 }
 
-    }
+    h1.page-header{
+   font-family:'Inknut Antiqua',serif;
+   width:80%;
+   margin:auto;
+   text-align:center;
+   text-shadow: 4px 4px 4px #aaa;
+}
 
+    
       table, th, td {
           border: 1px solid;
           border-collapse:collapse;
@@ -30,7 +37,7 @@
 </head>
 <body>
   <header>
-      <h1>Stylin' with CSS by Diamond Butler</h1>
+      <h1 class="page-header">Stylin' with CSS by Diamond Butler</h1>
       <nav>
           <a href="https://www.w3.org/" target="_blank">The W3C</a> |
           <a href="https://whatwg.org/" target="_blank">WHATWG Community</a> |
